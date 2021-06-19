@@ -1,0 +1,92 @@
+body{
+	background-color:pink;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pattaya',sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-family: 'Pattaya',sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+ul {
+	list-style: none;
+    display: inline;
+}
+li {
+	display: inline-block;
+	width: 25%;
+	position:relative;
+	font-size: 15px;
+	color: black;
+}
+
+ul li a:hover {
+	background-color:pink;
+	color: white;
+	padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	text-transform: uppercase;
+}
+
+body {
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	padding: 1em;
+}
+.menu{
+	text-align: center;
+}
+#main{
+	display: flex;
+	flex: 1;
+	margin-top: 20px;
+}
+
+article, aside{
+	background-color: transparent;
+}
+
+footer{
+	background-image: linear-gradient(to right,rgb(68, 36, 36),rgb(255, 130, 151));
+	margin:1px;
+	text-align: center;
+	justify-content: space-between;
+}
+
+article, aside, footer{
+	flex:1;
+	padding: 1rem;
+	margin:1px;
+}
+img{
+    height: 70%;
+}
+h3{
+	text-align: start;
+	font-family: 'Pattaya',sans-serif;
+}
+.cajaUno:hover{
+	transform: scale(1.1); 
+}
+.cajaDos:hover{
+	transform: scale(1.1);
+}
+.cajaTres:hover{
+	transform: scale(1.1);
+}
+@media only screen and (max-width: 600px){
+	#main{
+		flex-direction: column;
+	}
+}
