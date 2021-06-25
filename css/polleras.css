@@ -1,0 +1,41 @@
+body{
+	background-color:pink;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pattaya',sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+ul {
+	list-style: none;
+    display: inline;
+	font-family: 'Pattaya',sans-serif;
+}
+li {
+	display: inline-block;
+	width: 25%;
+	position:relative;
+	font-size: 15px;
+	color: black;
+}
+
+ul li a:hover {
+	background-color:pink;
+	color: white;
+	padding: 4px;
+}
+.menu{
+    text-align: center;
+}
+img{
+    height: 70%;
+}
+div{
+	font-family: 'Pattaya',sans-serif;
+	text-align: center;
+}
+.col-12:hover{
+	transform: scale(1.1); 
+}
